@@ -1,4 +1,4 @@
-# HTC Vive Pro Eye 2 Connection Guide
+## HTC Vive Pro Eye 2 Unity Connection Guide
 
 Guide to run Unity projects on HTC Vive Pro Eye 2 using the OpenXR (to access Unity's XR GameObjects (such as XRRig).
 
@@ -25,3 +25,13 @@ Guide to run Unity projects on HTC Vive Pro Eye 2 using the OpenXR (to access Un
 11.  Make sure that all features are unchecked (such as "D-Pad Binding" or "Hand Interaction Poses")
 
 12.  Project should run on the VR headset when it is played from the Unity Editor.
+
+ ## HTC Vive Pro Eye 2 Eye Tracker Unity Connection Guide
+
+ 1. Use [this link](https://developer.vive.com/resources/vive-sense/eye-and-facial-tracking-sdk/download/latest/) to download the SDK for the Eye Tracking.
+
+ 2. Go to SDK -> 02_Unity and extract the "Vive-SRanipal-Unity-Plugin.unitypackage" and import to the Unity project (as in the 2nd step of HTC Vive Pro Eye 2 Unity Connection Guide).
+
+ 3. Add the prefabs "Gaze Ray Sample" and "SRanipal Eye Framework" in the folder ViveSR -> Prefabs to the hiearchy.
+
+ 4. You should see a line that follows the gaze in play mode.
